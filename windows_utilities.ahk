@@ -24,8 +24,8 @@
 
 ;; SECTION: LAUNCH PROGRAMS ------------------------------------------------------------->
 
-	;; Alt+v = Launch the F5 BIG-IP Edge Client VPN
-	!v::
+	;; Alt+b = Launch the (B)IG-IP Edge Client VPN
+	!b::
 	Run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BIG-IP Edge Client.lnk"
 	Sleep, 500 ; Wait half a second for the application to load
 	Send, {Enter}
